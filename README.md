@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/heartysoft/jupyter-aws.svg?branch=master)](https://travis-ci.org/heartysoft/jupyter-aws)
+
 # jupyter-aws
 A docker container to run Jupyter Notebooks that need access to s3a features (Use of sts tokens, etc.)
 
