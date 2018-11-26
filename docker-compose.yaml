@@ -1,0 +1,12 @@
+nb:
+  build: .
+  hostname: nb
+  ports:
+    - 8888:8888
+  volumes:
+    #    - ./conf/master:/conf
+    - ./data:/tmp/data
+    - ./code:/code
+    - ./jars:/jars
+    - ./notebooks:/notebooks
+
