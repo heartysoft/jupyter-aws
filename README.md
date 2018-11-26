@@ -1,13 +1,16 @@
 
 [![Build Status](https://travis-ci.org/heartysoft/jupyter-aws.svg?branch=master)](https://travis-ci.org/heartysoft/jupyter-aws)
 
+Built image available at: [https://hub.docker.com/r/heartysoft/jupyter-aws/](https://hub.docker.com/r/heartysoft/jupyter-aws/). Image is heartysoft/jupyter-aws.
+
+
 # jupyter-aws
 A docker container to run Jupyter Notebooks that need access to s3a features (Use of sts tokens, etc.)
 
 
 ## usage
 
-Copy the docker-compose.yaml file. Change build: . to image: (docker image here). 
+Copy the docker-compose.yaml file. Change build: . to image: jupyter-aws. 
 Ensure you have docker-compose installed. Run docker-compose up -d. (skip the -d if you wish to run attached.)
 
 Jupyter will be running on localhost:8888 on the host machine. 
